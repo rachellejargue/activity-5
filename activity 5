@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="Viewport"content="Width=width-device,initial scale 1">
+        <title>My Family</title>
+    </head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: #3333;
+            font-family: 'Poppins', sans-serif;
+            background-image: url(file:///C:/Users/underground/Desktop/IPT/Activity%204-IPT/familyy.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        .cover{
+            width: 900px;
+            height: 400px;
+            /*background: #000;*/ 
+            margin-top: 100px;
+            display: flex;
+        }
+        h2{
+    color: black;
+        }
+    h3{
+        color: black;
+    }
+        .box{
+            background-color:lightblue;
+            
+            color:black;
+            margin: 10px;
+            width: 900px;
+            height: 900px;
+            box-shadow: -1px 0 15px #000000;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            /*background-color: black;*/   
+            transition:0.6s all;
+        }
+        img{
+
+            width:250px;
+            height: 350px;
+            display: flex;
+            
+        }
+        .box:hover{
+            transform:scale(1.2);
+            z-index:2;
+            filter:opacity(50%);
+            filter:grayscale(80%)
+        }
+        button{
+    Color:brown;
+    background-color: sandybrown;
+    width: 5%;
+    height: 50px;
+    z-index: 500;
+    padding: 15px;
+    border: 5px solid;
+    border-radius: 2px;
+    position: absolute;
+    margin: 20px;
+   
+} 
+h1{
+
+}}
+button:hover {color: rgb(187, 117, 25) ;transform:scale(1.3);}
+button{transition: .2; transform: scale(1.3);}
+    </style>
+    <body>
+        <div class="cover">
+        <div class="box">
+                <img src="file:///C:/Users/underground/Desktop/IPT/Activity%204-IPT/papa.jpg">
+                <h1>Father</h1>
+                <h3> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi fugiat eius, molestiae ratione unde nemo aliquam debitis quae in ducimus necessitatibus ipsam fuga. Commodi laborum temporibus architecto, magni quaerat blanditiis deleniti soluta fuga, quam minima dolore itaque illum, sint laboriosam neque facilis atque facere officiis nisi dolores? Atque, doloribus omnis.</h3>
+                <p> </p>
+                <a href="father.html">
+                    <button type="button" class="button">
+                        <span class="button_icon">
+                          <!--<ion name="person-outline"></ion-icon-->
+                          <ion-icon name="person-outline"></ion-icon>
+                        
+                        </span>
+                    </button>
+                  
+                  </a>
+        </div>
+        <div class="box">
+            <img src="file:///C:/Users/underground/Desktop/IPT/Activity%204-IPT/mama.jpg">
+            <h1>Mother</h1>
+            <h3> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores deserunt tempore consequuntur fuga cumque laboriosam quia, voluptates iste minima illo ullam earum. Nemo saepe ut, velit pariatur doloribus blanditiis illo natus dicta quia assumenda laboriosam aspernatur. Cum omnis eos fugiat nihil quod labore excepturi odio, ex maxime alias deleniti neque!</h3>
+            <p> </p>
+            <a href="Mother.html">
+                <button type="button" class="button">
+                    <span class="button_icon">
+                      <!--<ion name="person-outline"></ion-icon-->
+                      <ion-icon name="person-outline"></ion-icon>
+                    
+                    </span>
+                </button>
+              
+              </a>
+        </div>
+        <div class="box">
+            <img src="file:///C:/Users/underground/Desktop/IPT/Activity%204-IPT/ate.jpg">
+            <h1>Older sister</h1>
+            <h3> Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quod quos inventore culpa perferendis beatae sunt aliquam numquam consectetur, est doloremque quasi repellendus optio maxime nulla distinctio delectus. Esse veritatis corrupti laudantium consectetur reiciendis, distinctio dolorum maxime commodi, officia laboriosam tempora? Aperiam repellat consectetur dolore, qui officia enim ea velit.</h3>
+            <p></p>
+            <a href="Older Sister.html">
+                <button type="button" class="button">
+                    <span class="button_icon">
+                      <!--<ion name="person-outline"></ion-icon-->
+                      <ion-icon name="person-outline"></ion-icon>
+                    
+                    </span>
+                </button>
+              
+              </a>
+        </div>
+        <div class="box">
+            <img src="file:///C:/Users/underground/Desktop/IPT/Activity%204-IPT/younger%20brother.jpg">
+            <h1>Younger Brother</h1>
+            <h3> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi aliquid vero a illum corrupti veritatis recusandae nulla, voluptatem fuga sed fugit ullam temporibus nemo cum nostrum! Sint odio amet autem illum dolorem debitis molestias blanditiis optio architecto? Harum odit voluptatum fugiat distinctio cumque ratione vel adipisci ducimus, repellat corporis tempore.</h3>
+            <p> </p>
+            <a href="Younger brother.html">
+                <button type="button" class="button">
+                    <span class="button_icon">
+                      <!--<ion name="person-outline"></ion-icon-->
+                      <ion-icon name="person-outline"></ion-icon>
+                    
+                    </span>
+                </button>
+              
+              </a>
+        </div>
+
+    </body><a href="HOMEPAGE.HTML">
+        <button type="button" class="button">
+            <span class="button_icon">
+             <ion-icon name="home-outline"></ion-icon>
+           
+            </span>
+          </button>
+
+       
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </html>
